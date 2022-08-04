@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe9ad2f4-d193-4515-9352-b26187fe0081" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/e-commerce-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce-common/src/main/java/com/imooc/ecommerce/vo/CommonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/advice/CommonResponseDataAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/advice/GlobalExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/annotation/IgnoreResponseAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="fe9ad2f4-d193-4515-9352-b26187fe0081" name="Default Changelist" comment="Nacos 服务注册">
+      <change afterPath="$PROJECT_DIR$/e-commerce-alibaba-nacos-client/src/main/java/com/imooc/ecommerce/controller/NacosClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-alibaba-nacos-client/src/main/java/com/imooc/ecommerce/service/NacosClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-alibaba-nacos-client/src/main/resources/http/nacos-client.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,18 +47,35 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.NacosClientApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="nacos-client#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/e-commerce-alibaba-nacos-client/src/main/resources/http/nacos-client.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="NacosClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-commerce-alibaba-nacos-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.ecommerce.NacosClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.nacos-client#1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,8 +87,17 @@
       <updated>1659533002762</updated>
       <workItem from="1659533004031" duration="3015000" />
       <workItem from="1659574128973" duration="816000" />
-      <workItem from="1659595446603" duration="1727000" />
+      <workItem from="1659595446603" duration="2996000" />
+      <workItem from="1659617390607" duration="1057000" />
     </task>
+    <task id="LOCAL-00001" summary="Nacos 服务注册">
+      <created>1659605605640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659605605640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,5 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Nacos 服务注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nacos 服务注册" />
   </component>
 </project>
