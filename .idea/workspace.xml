@@ -4,23 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe9ad2f4-d193-4515-9352-b26187fe0081" name="Default Changelist" comment="" />
+    <list default="true" id="fe9ad2f4-d193-4515-9352-b26187fe0081" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/e-commerce-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-common/src/main/java/com/imooc/ecommerce/vo/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/advice/CommonResponseDataAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/advice/GlobalExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/annotation/IgnoreResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-commerce-mvc-config/src/main/java/com/imooc/ecommerce/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2CqbL061RXYwDFdcAOy1lci9zD0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -44,11 +69,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659533002762</updated>
-      <workItem from="1659533004031" duration="1316000" />
+      <workItem from="1659533004031" duration="3015000" />
+      <workItem from="1659574128973" duration="816000" />
+      <workItem from="1659595446603" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
