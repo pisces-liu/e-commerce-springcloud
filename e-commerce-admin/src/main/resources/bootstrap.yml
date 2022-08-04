@@ -6,6 +6,7 @@ server:
 spring:
   application:
     name: e-commerce-admin
+  # 对 admin 添加访问密码
   security:
     user:
       name: imooc-qinyi
@@ -19,6 +20,7 @@ spring:
         metadata:
           management:
             context-path: ${server.servlet.context-path}/actuator
+          # 对 admin 添加访问密码
           user.name: imooc-qinyi
           user.password: 88888888
   thymeleaf:
